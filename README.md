@@ -2,14 +2,12 @@
 
 > Start a project the @bitmachina way!
 
-## ⚡️ Quick start
+You need to add this module to your dependencies then run the script:
 
-```sh
-npm create @bitmachina/pkg
+```js
+"scripts": {
+  "unpack": "create-pkg-cli",
+}
 ```
 
-## GithHub actions setup
-
-1. Add a new repository environment named 'production'
-2. Add a `NPM_AUTH_TOKEN` to the 'production' environment.
-3. Set GitHub Pages to deploy from action.
+and the unpackager will scaffold the template for you
