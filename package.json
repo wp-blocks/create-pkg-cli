@@ -3,13 +3,16 @@
   "version": "0.0.1",
   "description": "A cli that initialize a TypeScript block",
   "license": "MIT",
-  "author": "John Hooks (https://johnhooks.io)",
-  "homepage": "https://github.com/johnhooks/create-pkg",
+  "contributors": [
+    "Erik Golinelli <erik@codekraft.it> (https://codekraft.it/)",
+    "John Hooks <bitmachina@outlook.com> (https://johnhooks.io/)"
+  ],
+  "homepage": "https://github.com/wp-blocks/create-pkg-cli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnhooks/create-pkg.git"
+    "url": "https://github.com/wp-blocks/create-pkg-cli.git"
   },
-  "bugs": "https://github.com/johnhooks/create-pkg/issues",
+  "bugs": "https://github.com/wp-blocks/create-pkg-cli/issues",
   "type": "module",
   "types": "lib/index.d.ts",
   "main": "./bin.js",
@@ -21,6 +24,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@wp-blocks/utils": "^0.1.0",
     "kleur": "^4.1.5",
     "prettier-package-json": "2.8.0",
     "prompts": "^2.4.2"

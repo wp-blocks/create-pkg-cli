@@ -46,6 +46,11 @@
     "@types/node" "*"
     kleur "^3.0.3"
 
+"@wp-blocks/utils@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@wp-blocks/utils/-/utils-0.1.0.tgz#970f5ce71f37aa483325313fb52f8fea0076bd0e"
+  integrity sha512-5TLDaFehDI+v5g81PVCbRuK0nQAR2+ek05OaxAZ7KL7T/WKqbZ4wrWPcGM3GYlXj7GhOeDpJBM3smNCzQevoLA==
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
