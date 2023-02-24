@@ -1,0 +1,4 @@
+/dist
+/.test-tmp
+
+/templates/*/dist
