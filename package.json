@@ -2,7 +2,7 @@
   "name": "@wp-blocks/create-pkg-cli",
   "version": "0.0.1",
   "description": "A cli that initialize a TypeScript block",
-  "license": ""GPL-3.0",
+  "license": "GPL-3.0",
   "contributors": [
     "Erik Golinelli <erik@codekraft.it> (https://codekraft.it/)",
     "John Hooks <bitmachina@outlook.com> (https://johnhooks.io/)"
